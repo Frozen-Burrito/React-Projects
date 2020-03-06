@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
+
+  color: rgb(209, 209, 209);
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,7 +16,34 @@ code {
     monospace;
 }
 
+h1 {
+  margin: .3rem 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(218, 200, 44);
+}
+
+h2 {
+  margin: 0;
+  color: rgb(7, 18, 61);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: .3s ease;
+}
+
+a:hover, a:hover h2 {
+  color: rgb(218, 200, 44);
+}
+
+.header { 
+  margin-bottom: 1rem;
+}
+
 .center {
+  min-width: 40%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,4 +53,21 @@ code {
 .container {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+.panel {
+  background-color: rgb(7, 18, 61);
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 1rem;
+  color: rgb(56, 56, 56);
+  background-color: rgb(209, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: -10px 10px 0px 4px rgba(2, 7, 29, 0.8);
+  -moz-box-shadow: -10px 10px 0px 4px rgba(2, 7, 29, 0.8);
+  box-shadow: -10px 10px 0px 4px rgba(2, 7, 29, 0.8);
+  margin-bottom: 2rem;
 }
