@@ -7,6 +7,7 @@ import Home from '../components/Home'
 import Carousel from '../components/carousel';
 import Maps from '../components/maps';
 import Calculator from '../components/calculator';
+import Quiz from '../components/quiz';
 
 const Pages = () => {
     return (
@@ -15,7 +16,8 @@ const Pages = () => {
                 <Route exact path="/" component={Home} />
                 <Route path="/carousel" component={Carousel} />
                 <Route path="/map" component={Maps} />
-                <Rote path="/calculator" component={Calculator} />
+                <Route path="/calculator" component={Calculator} />
+                <Route path="/quiz" component={Quiz} />
             </Switch>
         </Router>
     )

@@ -24,6 +24,22 @@ const Home = () => {
                     <p>A component that loads maps from Google</p>
                 </div>
             </Link>
+
+            <Link to="/quiz">
+                <div className="card">
+                    <h2>Quiz App</h2>
+                    <h3>08/Mar/2020</h3>
+                    <p>A simple quiz component</p>
+                </div>
+            </Link>
+
+            <Link to="/calculator">
+                <div className="card">
+                    <h2>Calculator App</h2>
+                    <h3>09/Mar/2020</h3>
+                    <p>A simple calculator using state and events</p>
+                </div>
+            </Link>
         </div>
     )
 } 
