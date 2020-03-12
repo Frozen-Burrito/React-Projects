@@ -20,11 +20,11 @@ class Quiz extends Component {
         updatedOptions[i].votes++;
 
 
-        function swap(array, i, j) {
-            var temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
-        }
+        // function swap(array, i, j) {
+        //     var temp = array[i];
+        //     array[i] = array[j];
+        //     array[j] = temp;
+        // }
         this.setState({options: updatedOptions});
     }
 

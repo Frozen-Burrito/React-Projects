@@ -8,6 +8,7 @@ import Carousel from '../components/carousel';
 import Maps from '../components/maps';
 import Calculator from '../components/calculator';
 import Quiz from '../components/quiz';
+import Autocomplete from '../components/search_autocomplete';
 
 const Pages = () => {
     return (
@@ -18,6 +19,7 @@ const Pages = () => {
                 <Route path="/map" component={Maps} />
                 <Route path="/calculator" component={Calculator} />
                 <Route path="/quiz" component={Quiz} />
+                <Route path="/autocomplete" component={Autocomplete} />
             </Switch>
         </Router>
     )

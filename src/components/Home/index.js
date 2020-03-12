@@ -33,6 +33,14 @@ const Home = () => {
                 </div>
             </Link>
 
+            <Link to="/autocomplete">
+                <div className="card">
+                    <h2>Autocomplete</h2>
+                    <h3>11/Mar/2020</h3>
+                    <p>A form autocomplete</p>
+                </div>
+            </Link>
+
             <Link to="/calculator">
                 <div className="card">
                     <h2>Calculator App</h2>
